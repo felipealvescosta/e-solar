@@ -1,6 +1,6 @@
 <?php
 
-$con = mysql_connect("localhost","root","felipe007");
+$con = mysql_connect("localhost","root","");
 
 if (!$con) {
   die('Não foi possivel conectar!: ' . mysql_error());
